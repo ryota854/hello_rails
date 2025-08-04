@@ -1,0 +1,22 @@
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+/Users/unkod/.rbenv/versions/3.4.5/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20250803-83536-nwzxhi/bootsnap
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi clean
