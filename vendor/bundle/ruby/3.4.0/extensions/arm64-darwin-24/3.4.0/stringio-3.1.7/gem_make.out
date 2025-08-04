@@ -1,0 +1,19 @@
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+/Users/unkod/.rbenv/versions/3.4.5/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250804-1635-w0ylzu sitelibdir\=./.gem.20250804-1635-w0ylzu clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250804-1635-w0ylzu sitelibdir\=./.gem.20250804-1635-w0ylzu
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250804-1635-w0ylzu sitelibdir\=./.gem.20250804-1635-w0ylzu install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20250804-1635-w0ylzu
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250804-1635-w0ylzu sitelibdir\=./.gem.20250804-1635-w0ylzu clean
