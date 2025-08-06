@@ -3,10 +3,17 @@ current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/by
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/byebug-12.0.0/ext/byebug
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-7ky0zb sitelibdir\=./.gem.20250803-83536-7ky0zb clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/byebug-12.0.0/ext/byebug
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-7ky0zb sitelibdir\=./.gem.20250803-83536-7ky0zb
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-f33oso sitelibdir\=./.gem.20250806-49672-f33oso clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/byebug-12.0.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-f33oso sitelibdir\=./.gem.20250806-49672-f33oso
+>>>>>>> separate
 compiling breakpoint.c
 breakpoint.c:35:3: warning: 'rb_data_object_get_warning' is deprecated: by TypedData [-Wdeprecated-declarations]
    35 |   Data_Get_Struct(self, breakpoint_t, breakpoint);
@@ -1772,8 +1779,16 @@ threads.c:216:3: warning: 'rb_data_object_get_warning' is deprecated: by TypedDa
 linking shared-object byebug/byebug.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/byebug-12.0.0/ext/byebug
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-7ky0zb sitelibdir\=./.gem.20250803-83536-7ky0zb install
 /usr/bin/install -c -m 0755 byebug.bundle ./.gem.20250803-83536-7ky0zb/byebug
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/byebug-12.0.0/ext/byebug
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-7ky0zb sitelibdir\=./.gem.20250803-83536-7ky0zb clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-f33oso sitelibdir\=./.gem.20250806-49672-f33oso install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20250806-49672-f33oso/byebug
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/byebug-12.0.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-f33oso sitelibdir\=./.gem.20250806-49672-f33oso clean
+>>>>>>> separate

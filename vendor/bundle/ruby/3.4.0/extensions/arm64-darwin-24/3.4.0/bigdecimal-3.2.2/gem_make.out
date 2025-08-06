@@ -26,17 +26,32 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-90744-fton0p sitelibdir\=./.gem.20250803-90744-fton0p clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal
 make DESTDIR\= sitearchdir\=./.gem.20250803-90744-fton0p sitelibdir\=./.gem.20250803-90744-fton0p
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-73960-h8i7id sitelibdir\=./.gem.20250806-73960-h8i7id clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20250806-73960-h8i7id sitelibdir\=./.gem.20250806-73960-h8i7id
+>>>>>>> separate
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-90744-fton0p sitelibdir\=./.gem.20250803-90744-fton0p install
 /usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20250803-90744-fton0p
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal
 make DESTDIR\= sitearchdir\=./.gem.20250803-90744-fton0p sitelibdir\=./.gem.20250803-90744-fton0p clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-73960-h8i7id sitelibdir\=./.gem.20250806-73960-h8i7id install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20250806-73960-h8i7id
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20250806-73960-h8i7id sitelibdir\=./.gem.20250806-73960-h8i7id clean
+>>>>>>> separate

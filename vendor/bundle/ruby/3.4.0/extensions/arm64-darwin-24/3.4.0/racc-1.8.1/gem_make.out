@@ -3,16 +3,31 @@ current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/ra
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-k7lw7z sitelibdir\=./.gem.20250803-83536-k7lw7z clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-k7lw7z sitelibdir\=./.gem.20250803-83536-k7lw7z
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k00our sitelibdir\=./.gem.20250806-49672-k00our clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k00our sitelibdir\=./.gem.20250806-49672-k00our
+>>>>>>> separate
 compiling cparse.c
 linking shared-object racc/cparse.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-k7lw7z sitelibdir\=./.gem.20250803-83536-k7lw7z install
 /usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250803-83536-k7lw7z/racc
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-k7lw7z sitelibdir\=./.gem.20250803-83536-k7lw7z clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k00our sitelibdir\=./.gem.20250806-49672-k00our install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250806-49672-k00our/racc
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k00our sitelibdir\=./.gem.20250806-49672-k00our clean
+>>>>>>> separate

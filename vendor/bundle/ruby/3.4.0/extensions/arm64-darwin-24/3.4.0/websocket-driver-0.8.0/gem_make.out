@@ -3,16 +3,31 @@ current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/we
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-trjw0z sitelibdir\=./.gem.20250803-83536-trjw0z clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-trjw0z sitelibdir\=./.gem.20250803-83536-trjw0z
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k91q9e sitelibdir\=./.gem.20250806-49672-k91q9e clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k91q9e sitelibdir\=./.gem.20250806-49672-k91q9e
+>>>>>>> separate
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-trjw0z sitelibdir\=./.gem.20250803-83536-trjw0z install
 /usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20250803-83536-trjw0z
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-trjw0z sitelibdir\=./.gem.20250803-83536-trjw0z clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k91q9e sitelibdir\=./.gem.20250806-49672-k91q9e install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20250806-49672-k91q9e
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-k91q9e sitelibdir\=./.gem.20250806-49672-k91q9e clean
+>>>>>>> separate

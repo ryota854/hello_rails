@@ -86,12 +86,21 @@ debugflags = -ggdb3
 warnflags = -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wmisleading-indentation -Wundef
 cppflags = 
 CCDLFLAGS = -fno-common
+<<<<<<< HEAD
 CFLAGS   = $(CCDLFLAGS) $(cflags) -fno-common -pipe -DFULL_SSL_MODE_SUPPORT  $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir) -I/opt/homebrew/Cellar/mysql/9.4.0/include/mysql
 DEFS     = 
 CPPFLAGS = -DHAVE_RB_ABSINT_SIZE -DHAVE_RB_ABSINT_SINGLEBIT_P -DHAVE_RB_GC_MARK_MOVABLE -DHAVE_RB_WAIT_FOR_SINGLE_FD -DHAVE_RB_ENC_INTERNED_STR -DHAVE_MYSQL_H -DHAVE_ERRMSG_H -DHAVE_CONST_SSL_MODE_DISABLED -DHAVE_CONST_SSL_MODE_PREFERRED -DHAVE_CONST_SSL_MODE_REQUIRED -DHAVE_CONST_SSL_MODE_VERIFY_CA -DHAVE_CONST_SSL_MODE_VERIFY_IDENTITY -DHAVE_MYSQL_NET_VIO -DHAVE_ST_NET_VIO -DHAVE_CONST_MYSQL_DEFAULT_AUTH -DHAVE_CONST_MYSQL_ENABLE_CLEARTEXT_PLUGIN -DHAVE_CONST_SERVER_QUERY_NO_GOOD_INDEX_USED -DHAVE_CONST_SERVER_QUERY_NO_INDEX_USED -DHAVE_CONST_SERVER_QUERY_WAS_SLOW -DHAVE_CONST_MYSQL_OPTION_MULTI_STATEMENTS_ON -DHAVE_CONST_MYSQL_OPTION_MULTI_STATEMENTS_OFF -I/opt/homebrew/opt/openssl@3/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
 CXXFLAGS = $(CCDLFLAGS) -fdeclspec $(ARCH_FLAG)
 ldflags  = -L/usr/local/opt/openssl/lib -L/opt/homebrew/opt/openssl@3/lib
+=======
+CFLAGS   = $(CCDLFLAGS) $(cflags) -fno-common -pipe -DFULL_SSL_MODE_SUPPORT -Wno-compound-token-split-by-macro -Wno-bad-function-cast -Wno-conditional-uninitialized -Wno-covered-switch-default -Wno-declaration-after-statement -Wno-disabled-macro-expansion -Wno-documentation-unknown-command -Wno-missing-field-initializers -Wno-missing-variable-declarations -Wno-padded -Wno-reserved-id-macro -Wno-sign-conversion -Wno-static-in-inline -Wno-switch-enum -Wno-undef -Wno-unreachable-code -Wno-used-but-marked-unused $(ARCH_FLAG)
+INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir) -I/opt/homebrew/Cellar/mysql/9.4.0/include/mysql
+DEFS     = 
+CPPFLAGS = -DHAVE_RB_ABSINT_SIZE -DHAVE_RB_ABSINT_SINGLEBIT_P -DHAVE_RB_GC_MARK_MOVABLE -DHAVE_RB_WAIT_FOR_SINGLE_FD -DHAVE_RB_ENC_INTERNED_STR -DHAVE_MYSQL_H -DHAVE_ERRMSG_H -DHAVE_CONST_SSL_MODE_DISABLED -DHAVE_CONST_SSL_MODE_PREFERRED -DHAVE_CONST_SSL_MODE_REQUIRED -DHAVE_CONST_SSL_MODE_VERIFY_CA -DHAVE_CONST_SSL_MODE_VERIFY_IDENTITY -DHAVE_MYSQL_NET_VIO -DHAVE_ST_NET_VIO -DHAVE_CONST_MYSQL_DEFAULT_AUTH -DHAVE_CONST_MYSQL_ENABLE_CLEARTEXT_PLUGIN -DHAVE_CONST_SERVER_QUERY_NO_GOOD_INDEX_USED -DHAVE_CONST_SERVER_QUERY_NO_INDEX_USED -DHAVE_CONST_SERVER_QUERY_WAS_SLOW -DHAVE_CONST_MYSQL_OPTION_MULTI_STATEMENTS_ON -DHAVE_CONST_MYSQL_OPTION_MULTI_STATEMENTS_OFF -DHAVE_MYSQL_SSL_SET -I/opt/homebrew/opt/mysql-client/include -I/opt/homebrew/opt/zstd/include -I/opt/homebrew/opt/openssl@3/include
+CXXFLAGS = $(CCDLFLAGS) -fdeclspec $(ARCH_FLAG)
+ldflags  = -L/opt/homebrew/opt/mysql-client/lib -L/opt/homebrew/opt/zstd/lib -L/opt/homebrew/opt/openssl@3/lib -L/opt/homebrew/opt/openssl@3/lib -Wl,-rpath,/opt/homebrew/Cellar/mysql/9.4.0/lib
+>>>>>>> separate
 dldflags = -Wl,-undefined,dynamic_lookup 
 ARCH_FLAG = -arch arm64
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
@@ -130,8 +139,13 @@ TOUCH = exit >
 #### End of system configuration section. ####
 
 preload = 
+<<<<<<< HEAD
 libpath = . $(libdir) /opt/homebrew/opt/openssl@3/lib /opt/homebrew/Cellar/mysql/9.4.0/lib
 LIBPATH = -L. -L$(libdir) -L/opt/homebrew/opt/openssl@3/lib -L/opt/homebrew/Cellar/mysql/9.4.0/lib
+=======
+libpath = . $(libdir) /opt/homebrew/opt/openssl@3/lib
+LIBPATH = -L. -L$(libdir) -L/opt/homebrew/opt/openssl@3/lib
+>>>>>>> separate
 DEFFILE = 
 
 CLEANFILES = mkmf.log

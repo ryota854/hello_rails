@@ -3,10 +3,17 @@ current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/sa
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/sassc-2.4.0/ext
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-73m9l2 sitelibdir\=./.gem.20250803-83536-73m9l2 clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/sassc-2.4.0/ext
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-73m9l2 sitelibdir\=./.gem.20250803-83536-73m9l2
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-95hiz2 sitelibdir\=./.gem.20250806-49672-95hiz2 clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/sassc-2.4.0/ext
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-95hiz2 sitelibdir\=./.gem.20250806-49672-95hiz2
+>>>>>>> separate
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -86,8 +93,16 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/sassc-2.4.0/ext
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-73m9l2 sitelibdir\=./.gem.20250803-83536-73m9l2 install
 /usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250803-83536-73m9l2/sassc
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/sassc-2.4.0/ext
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-73m9l2 sitelibdir\=./.gem.20250803-83536-73m9l2 clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-95hiz2 sitelibdir\=./.gem.20250806-49672-95hiz2 install
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250806-49672-95hiz2/sassc
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/sassc-2.4.0/ext
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-95hiz2 sitelibdir\=./.gem.20250806-49672-95hiz2 clean
+>>>>>>> separate

@@ -7,16 +7,31 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-mhoqdd sitelibdir\=./.gem.20250806-49672-mhoqdd clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-mhoqdd sitelibdir\=./.gem.20250806-49672-mhoqdd
+>>>>>>> separate
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi install
 /usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20250803-83536-nwzxhi/bootsnap
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-nwzxhi sitelibdir\=./.gem.20250803-83536-nwzxhi clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-mhoqdd sitelibdir\=./.gem.20250806-49672-mhoqdd install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20250806-49672-mhoqdd/bootsnap
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-mhoqdd sitelibdir\=./.gem.20250806-49672-mhoqdd clean
+>>>>>>> separate

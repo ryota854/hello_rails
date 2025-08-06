@@ -14,18 +14,33 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/puma-5.6.9/ext/puma_http11
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-isrydw sitelibdir\=./.gem.20250803-83536-isrydw clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/puma-5.6.9/ext/puma_http11
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-isrydw sitelibdir\=./.gem.20250803-83536-isrydw
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-cal6xw sitelibdir\=./.gem.20250806-49672-cal6xw clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/puma-5.6.9/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-cal6xw sitelibdir\=./.gem.20250806-49672-cal6xw
+>>>>>>> separate
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/puma-5.6.9/ext/puma_http11
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-isrydw sitelibdir\=./.gem.20250803-83536-isrydw install
 /usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20250803-83536-isrydw/puma
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/puma-5.6.9/ext/puma_http11
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-isrydw sitelibdir\=./.gem.20250803-83536-isrydw clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-cal6xw sitelibdir\=./.gem.20250806-49672-cal6xw install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20250806-49672-cal6xw/puma
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/puma-5.6.9/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-cal6xw sitelibdir\=./.gem.20250806-49672-cal6xw clean
+>>>>>>> separate

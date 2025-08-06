@@ -3,16 +3,31 @@ current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bi
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-eseito sitelibdir\=./.gem.20250803-83536-eseito clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-eseito sitelibdir\=./.gem.20250803-83536-eseito
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-wlknjn sitelibdir\=./.gem.20250806-49672-wlknjn clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-wlknjn sitelibdir\=./.gem.20250806-49672-wlknjn
+>>>>>>> separate
 compiling cruby.c
 linking shared-object skiptrace/internal/cruby.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-eseito sitelibdir\=./.gem.20250803-83536-eseito install
 /usr/bin/install -c -m 0755 cruby.bundle ./.gem.20250803-83536-eseito/skiptrace/internal
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-eseito sitelibdir\=./.gem.20250803-83536-eseito clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-wlknjn sitelibdir\=./.gem.20250806-49672-wlknjn install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20250806-49672-wlknjn/skiptrace/internal
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-wlknjn sitelibdir\=./.gem.20250806-49672-wlknjn clean
+>>>>>>> separate

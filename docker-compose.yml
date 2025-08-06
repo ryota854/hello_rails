@@ -1,5 +1,6 @@
 version: "3.2"
 
+<<<<<<< HEAD
 
 services:
   database:
@@ -16,3 +17,21 @@ services:
 volumes:
   mysql-datavolume:
     driver: local
+=======
+services:
+  database:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+      MYSQL_ROOT_HOST: "%"
+
+
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
+>>>>>>> separate

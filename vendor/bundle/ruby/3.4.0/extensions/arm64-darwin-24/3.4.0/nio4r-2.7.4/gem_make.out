@@ -14,10 +14,17 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-dgwgn3 sitelibdir\=./.gem.20250803-83536-dgwgn3 clean
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-dgwgn3 sitelibdir\=./.gem.20250803-83536-dgwgn3
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-x34y6w sitelibdir\=./.gem.20250806-49672-x34y6w clean
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-x34y6w sitelibdir\=./.gem.20250806-49672-x34y6w
+>>>>>>> separate
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -360,8 +367,16 @@ compiling selector.c
 linking shared-object nio4r_ext.bundle
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
+<<<<<<< HEAD
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-dgwgn3 sitelibdir\=./.gem.20250803-83536-dgwgn3 install
 /usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20250803-83536-dgwgn3
 
 current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
 make DESTDIR\= sitearchdir\=./.gem.20250803-83536-dgwgn3 sitelibdir\=./.gem.20250803-83536-dgwgn3 clean
+=======
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-x34y6w sitelibdir\=./.gem.20250806-49672-x34y6w install
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20250806-49672-x34y6w
+
+current directory: /Users/unkod/git/hello_rails/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20250806-49672-x34y6w sitelibdir\=./.gem.20250806-49672-x34y6w clean
+>>>>>>> separate
